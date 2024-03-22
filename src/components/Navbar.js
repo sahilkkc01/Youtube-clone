@@ -35,7 +35,7 @@ export default function Navbar() {
                 <form action="">
 
                   <div className='flex bg-zinc-900 h-10 px-4 pr-0 rounded-3xl'>
-                    <div className='flex pr-5 items-center gap-5 pr-5'>
+                    <div className='flex items-center gap-5 pr-5'>
                       <input type="text" placeholder='search' className='w-96 bg-zinc-900 focus:outline-none border-none '/>
   
                     </div>
