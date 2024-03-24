@@ -8,11 +8,6 @@ import { IoIosNotifications } from "react-icons/io";
 import { MdAccountCircle } from "react-icons/md";
 
 
-
-
-
-
-
 export default function Navbar() {
   return (
 
@@ -52,12 +47,13 @@ export default function Navbar() {
 
             {/* add video notifaction and account div*/}
                 <div className='flex gap-5 item-center '>
-                  <RiVideoAddFill/>
+                  {/* //className text-xl make icons larger */}
+                  <RiVideoAddFill className='text-xl'/>
                   <div className='relative'>
-                  <IoIosNotifications />
+                  <IoIosNotifications className='text-xl'/>
                   <span className='absolute bottom-2 left-3 text-xs bg-red-600 rounded-full px-1'>9+</span>
                   </div>
-                  <MdAccountCircle />
+                  <MdAccountCircle className='text-xl'/>
                 </div>
     </div>
   )
